@@ -1,14 +1,11 @@
 import React from 'react'
-import Head from 'next/head'
-import styled from '@emotion/styled'
-
-const Heading = styled.h1`
-  color: red;
-`
+import Layout from '../components/layout/Layout'
 
 const Home = () => (
-  <div className="container">
-    <Heading>Init</Heading>
+  <div>
+    <Layout>
+      <h1>Init</h1>
+    </Layout>
   </div>
 )
 
