@@ -1,9 +1,16 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Layout = props => {
     return ( 
         <>
             <h1>Header</h1>
+
+            <nav>
+                <Link href='/'>Init</Link>
+                <Link href='/we'>We</Link>
+            </nav>
+
             <main>
                 {props.children}
             </main>
@@ -11,4 +18,4 @@ const Layout = props => {
      );
 }
  
-export default Layouprops
+export default Layout
