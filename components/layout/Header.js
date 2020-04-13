@@ -17,7 +17,7 @@ const Header = () => {
                 <div>
                     <p>Hello: Freddy</p>
 
-                    <button rtype="button">Sign Off</button>
+                    <button type="button">Sign Off</button>
 
                     <Link href="">Login</Link>
                     <Link href="">Create Account</Link>
